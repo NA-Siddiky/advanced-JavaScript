@@ -19,3 +19,4 @@ function sum(first, second) {
 const result = sum(1, 3);
 // console.log(result);
 // console.log(add);   //cant call from outside , its global variable /
+

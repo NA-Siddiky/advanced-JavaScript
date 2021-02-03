@@ -16,6 +16,7 @@ for (let i = 0; i < nums.length; i++) {             //problem , hot the first lo
     if (element > 3) {
         break
     }
+    console.log(element);
 }
 for (let i = 0; i < nums.length; i++) {
     const element = nums[i];
@@ -23,5 +24,5 @@ for (let i = 0; i < nums.length; i++) {
     if (element < 0) {
         continue
     }
-    console.log(element);
+    console.log(" , ", element);
 }
