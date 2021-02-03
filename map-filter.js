@@ -1,15 +1,15 @@
 const numbers = [1, 2, 3, 4, 5];                // basic old formula /
-// const output = [];
-// for (let i = 0; i < numbers.length; i++) {
-//     const element = numbers[i];
-//     // console.log(element);
+const output = [];
+for (let i = 0; i < numbers.length; i++) {
+    const element = numbers[i];
+    // console.log(element);
 
-//     const result = element * element;
-//     // console.log(result);
+    const result = element * element;
+    // console.log(result);
 
-//     output.push(result);
-// }
-// console.log(output);
+    output.push(result);
+}
+console.log(output);
 
 
 
@@ -19,14 +19,14 @@ const numbers = [1, 2, 3, 4, 5];                // basic old formula /
 // })
 
 // const element = numbers;
-function square(elements) {
-    const result = elements.map(element => element * element);
-    return result;
-    // return element * element;
-}
+// function square(elements) {
+//     const result = elements.map(element => element * element);
+//     return result;
+//     // return element * element;
+// }
 
-const output = square(numbers);
-console.log(output);
+// const output = square(numbers);
+// console.log(output);
 
 
 
@@ -46,7 +46,7 @@ console.log(output);
 
 // console.log(element);
 
-const result = numbers.map(y => y * y);               //using map function/
+// const result = numbers.map(y => y * y);               //using map function/
 // const result = numbers.filter(x => x > 2);            //using map filter/
 // const result = numbers.find(x => x == 2);              //using map find/
 // console.log(result);
