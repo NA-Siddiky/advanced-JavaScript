@@ -44,7 +44,6 @@ const student = [
 // }
 // console.log(output);
 
-// const userName = student.map(student => student.username)
 const bigger = student.filter(s => s.name == student[2].name)
 console.log(bigger);
 
