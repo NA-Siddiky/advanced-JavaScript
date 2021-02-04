@@ -61,15 +61,6 @@ const student = [
 const output = [];
 
 for (let i = 0; i < student.length; i++) {
-    const names = student[1].id;
-    // console.log(names);
-    output.push(names)
-    // if (i === 2) {
-    //     const name = student[i].name;
-    //     output.push(name)
-    // }
-}
-for (let i = 0; i < student.length; i++) {
     const names = student[2].name;
     // console.log(names)
     output.push(names)
@@ -80,14 +71,21 @@ for (let i = 0; i < student.length; i++) {
     output.push(names)
 }
 // console.log(output);
-
+for (let i = 0; i < student.length; i++) {
+    const names = student[1].id;
+    // console.log(names);
+    output.push(names)
+    // if (i === 2) {
+    //     const name = student[i].name;
+    //     output.push(name)
+    // }
+}
 function justName() {
     for (let i = 0; i < output.length; i++) {
         const element = output[i];
-        console.log(element);
+        // console.log(element);
         return element;
     }
-
 }
 console.log(justName());
 
